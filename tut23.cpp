@@ -4,10 +4,11 @@ using namespace std;
 class shop
 {
     int iteamid[100];
-    int iteamprice{100};
-    int counter;
+    int iteamprice[100]; // i mistake here {} to[]
+    // int counter;//also this is not privat part of class
 
 public:
+    int counter;
     void initcounter(void) { counter = 0; }
     void setprice(void);
     void displayprice(void);
