@@ -45,7 +45,7 @@ void bankdeposit::show()
 int main()
 {
     bankdeposit b1, b2, b3;
-    int p, y;2
+    int p, y;
     float r;
     int R;
     cout << "enter the value of p y and r" << endl;
